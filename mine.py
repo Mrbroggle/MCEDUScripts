@@ -2,8 +2,6 @@ agent.teleport_to_player()
 i=0
 agent.set_item(TORCH, 1, 1)
 agent.set_slot(1)
-agent_coords = agent.get_position()
-index()
 
 while True:
     agent.destroy(FORWARD)
