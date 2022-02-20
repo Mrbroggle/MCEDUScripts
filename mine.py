@@ -14,4 +14,5 @@ while True:
     i += 1
     if i == 5:
         agent.place(DOWN)
+        agent.set_item(TORCH, 1, 1)
         i = 0
